@@ -1,0 +1,47 @@
+body {
+    background-color: white;}
+
+.img {
+    margin: 0 auto;
+    display: block;
+}
+
+.search-bar {
+    text-align: center;
+    background-color: gainsboro;
+}
+
+#search-input{
+    display: block;
+    margin:0 auto;
+    width: 30%;
+}
+
+.eklenti-bir{
+    flex-grow: 3;
+    background-color: #00B4B4;
+    margin-right: 0.1em;
+    float: left;
+}
+
+.eklenti-iki{
+    flex-grow: 1;
+    background-color: #009E9E;
+    margin-right: 0.1em;
+    float: left;
+}
+
+.eklenti-üç{
+    flex-grow: 3.5;
+    background-color: #007171;
+    float: left;
+}
+
+    .container{
+        float: left;
+        width: 2000px;
+        margin-top: 0.2em;
+        display:flex;
+        text-align: center;
+        width: 100%;
+    }
